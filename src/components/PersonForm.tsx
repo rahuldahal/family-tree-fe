@@ -62,6 +62,7 @@ export default function PersonForm(): JSX.Element {
 
   return (
     <div className="p-4">
+      <h1 className="text-3xl font-bold mb-4">Add Person Data</h1>
       <form
         onSubmit={handleSubmit}
         className="max-w-md mx-auto p-4 bg-white shadow-md rounded-lg"
